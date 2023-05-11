@@ -109,7 +109,7 @@ web-vitals: ^2.1.4 |
 # Screenshots of this project
 
 User visit public and Home page
-![User visit public and Home page](https://imgur.com/a/Lap46SW.png)
+![User visit public and Home page](https://i.imgur.com/a/Lap46SW.png)
 
 User can sign in or sign up
 ![User can sign in or sign up](https://imgur.com/a/YXUQJZf)
