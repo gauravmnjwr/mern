@@ -11,7 +11,7 @@ MongoDB, Expressjs, React/Redux, Nodejs
 MERN stack is the idea of using Javascript/Node for fullstack web development.
 
 ## clone or download
-```terminal
+
 $ git clone https://github.com/gauravmnjwr/CyberShop_MERN.git
 
 $ yarn # or npm i
@@ -110,6 +110,8 @@ web-vitals: ^2.1.4 |
 
 User visit public and Home page
 ![User visit public and Home page](http://i.imgur.com/a/Lap46SW.png)
+```terminal![CyberShop_HomePage](https://github.com/gauravmnjwr/mern/assets/91672896/66758a37-7334-4441-8790-7523749fca03)
+
 
 User can sign in or sign up
 ![User can sign in or sign up](https://imgur.com/a/YXUQJZf)
