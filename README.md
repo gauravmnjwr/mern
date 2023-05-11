@@ -114,7 +114,7 @@ User visit public and Home page
 
 
 User can sign in or sign up!
-[User can sign in or sign up](https://github.com/gauravmnjwr/mern/assets/91672896/08be20a3-c074-4074-aca4-5e92b1aeb397)
+![User can sign in or sign up](https://github.com/gauravmnjwr/mern/assets/91672896/08be20a3-c074-4074-aca4-5e92b1aeb397)
 
 
 After signing in user can go to account route and make request to token-protected API endpoint
