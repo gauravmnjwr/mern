@@ -110,7 +110,7 @@ web-vitals: ^2.1.4 |
 
 User visit public and Home page
 ![User visit public and Home page](http://i.imgur.com/a/Lap46SW.png)
-```terminal![CyberShop_HomePage](https://github.com/gauravmnjwr/mern/assets/91672896/66758a37-7334-4441-8790-7523749fca03)
+![CyberShop_HomePage](https://github.com/gauravmnjwr/mern/assets/91672896/66758a37-7334-4441-8790-7523749fca03)
 
 
 User can sign in or sign up
