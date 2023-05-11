@@ -5,14 +5,6 @@
 MongoDB, Expressjs, React/Redux, Nodejs
 </p>
 
-<p align="center">
-   <a href="https://github.com/amazingandyyy/mern/blob/master/LICENSE">
-      <img src="https://img.shields.io/badge/License-MIT-green.svg" />
-   </a>
-   <a href="https://circleci.com/gh/amazingandyyy/mern">
-      <img src="https://circleci.com/gh/amazingandyyy/mern.svg?style=svg" />
-   </a>
-</p>
 
 > MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
 
@@ -20,7 +12,8 @@ MERN stack is the idea of using Javascript/Node for fullstack web development.
 
 ## clone or download
 ```terminal
-$ git clone https://github.com/amazingandyyy/mern.git
+$ git clone https://github.com/gauravmnjwr/CyberShop_MERN.git
+
 $ yarn # or npm i
 ```
 
@@ -28,10 +21,10 @@ $ yarn # or npm i
 ```terminal
 LICENSE
 package.json
-server/
+backend/
    package.json
    .env (to create .env, check [prepare your secret session])
-client/
+frontend/
    package.json
 ...
 ```
@@ -47,16 +40,11 @@ notice, you need client and server runs concurrently in different terminal sessi
 
 ## Client-side usage(PORT: 3000)
 ```terminal
-$ cd client          // go to client folder
+$ cd frontend          // go to client folder
 $ yarn # or npm i    // npm install packages
-$ npm run dev        // run it locally
 
-// deployment for client app
-$ npm run build // this will compile the react code using webpack and generate a folder called docs in the root level
-$ npm run start // this will run the files in docs, this behavior is exactly the same how gh-pages will run your static site
-```
-
-## Server-side usage(PORT: 8000)
+## Server-side usage(PORT: 5000)
+$ cd backend          // go to backend folder
 
 ### Prepare your secret
 
@@ -66,17 +54,16 @@ run the script at the first level:
 
 ```terminal
 // in the root level
-$ cd server
+$ cd frontend
 $ echo "JWT_SECRET=YOUR_JWT_SECRET" >> src/.env
 ```
 
 ### Start
 
 ```terminal
-$ cd server   // go to server folder
-$ npm i       // npm install packages
-$ npm run dev // run it locally
-$ npm run build // this will build the server code to es5 js codes and generate a dist file
+$ cd root          // go to root folder
+$ yarn # or npm i    // npm install packages
+$ npm run dev      // run both servers in development mode
 ```
 
 ## Deploy Server to [Heroku](https://dashboard.heroku.com/)
@@ -88,7 +75,7 @@ $ heroku create
 $ npm run heroku:add <your-super-amazing-heroku-app>
 // remember to run this command in the root level, not the server level, so if you follow the documentation along, you may need to do `cd ..`
 $ pwd
-/Users/<your-name>/mern
+/Users/<your-name>/CyberShop_MERN
 $ npm run deploy:heroku
 ```
 
@@ -107,43 +94,33 @@ remember to update the file of [client/.env.production](https://github.com/amazi
 # Dependencies(tech-stacks)
 Client-side | Server-side
 --- | ---
-axios: ^0.15.3 | bcrypt-nodejs: ^0.0.3
-babel-preset-stage-1: ^6.1.18|body-parser: ^1.15.2
-lodash: ^3.10.1 | cors: ^2.8.1
-react: ^16.2.0 | dotenv: ^2.0.0
-react-dom: ^16.2.0 | express: ^4.14.0
-react-redux: ^4.0.0 | jwt-simple: ^0.5.1
-react-router-dom: ^4.2.2 | mongoose: ^4.7.4
-redux: ^3.7.2 | morgan: ^1.7.0
-redux-thunk: ^2.1.0 |
+axios: ^1.4.0| bcryptjs: ^2.4.3
+react: ^18.2.0 | colors: ^1.4.0
+react-bootstrap: ^2.7.4 | dotenv: ^16.0.3
+react-dom: ^18.2.0 | express: ^4.18.2
+react-redux: ^8.0.5 | jsonwebtoken: ^9.0.0
+react-router-dom: ^6.11.0 | mongoose: ^7.1.0
+react-router-bootstrap: ^0.26.2 | morgan: ^1.10.0
+redux-devtools-extension: ^2.13.9 |
+redux: ^3.7.2 | 
+redux-thunk: ^2.4.2 |
+web-vitals: ^2.1.4 |
 
 # Screenshots of this project
 
 User visit public and Home page
-![User visit public and Home page](http://i.imgur.com/ORCGHHY.png)
+![User visit public and Home page](https://imgur.com/a/Lap46SW)
 
 User can sign in or sign up
-![User can sign in or sign up](http://i.imgur.com/rrmbU5I.png)
+![User can sign in or sign up](https://imgur.com/a/YXUQJZf)
 
 After signing in user can go to account route and make request to token-protected API endpoint
-![After signing in user can go to account route](http://i.imgur.com/FzLB51u.png)
+![After signing in user can go to account route](https://imgur.com/a/mWB63Pw)
 
 ## Standard
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-## BUGs or comments
-
-[Create new Issues](https://github.com/amazingandyyy/mern/issues) (preferred)
-
-Email Me: amazingandyyy@gmail.com (welcome, say hi)
 
 ## Author
-[Amazingandyyy](https://amazingandyyy.com)
-
-I recently launch my monthly mentorship program, feel free to reach out and see what we can grow together:
-
-<a href="https://mentorcruise.com/mentor/andychen/"> <img src="https://cdn.mentorcruise.com/img/banner/fire-sm.svg" width="240" alt="MentorCruise"> </a>
-
-### License
-[MIT](https://github.com/amazingandyyy/mern/blob/master/LICENSE)
+[gauravmunjewar](https://www.linkedin.com/in/gaurav-munjewar)
